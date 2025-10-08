@@ -1,0 +1,24 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --brand:#D67BA8;      /* Primario (rosa malva elegante) */
+  --brand-strong:#A15C83; /* Énfasis */
+  --bg:#FAF7F9;         /* Fondo general */
+  --surface:#FFFFFF;    /* Superficie */
+  --surface-2:#F6D8E0;  /* Rosa empolvado claro */
+  --text:#1E1E1E;       /* Texto principal */
+  --muted:#6B7280;      /* Texto secundario */
+  --border:#E8E8E8;     /* Borde neutro */
+}
+
+body{ background: var(--bg); color: var(--text); }
+.brand-btn{ background: var(--brand); color: #fff; }
+.brand-btn:hover{ filter: brightness(1.05); }
+.brand-outline{ border: 1px solid var(--brand); color: var(--brand-strong); background:#fff; }
+.brand-outline:hover{ background: #fff1f7; }
+.surface{ background: var(--surface); }
+.surface-2{ background: var(--surface-2); }
+.brand-border{ border-color: var(--brand); }
